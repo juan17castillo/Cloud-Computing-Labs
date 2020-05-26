@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="Castillo-Juan-Manuel-Taller3">
+		<class>com.icesi.edu.taller.model.TsscAcceptanceCriteria</class>
+		<class>com.icesi.edu.taller.model.TsscAdmin</class>
+		<class>com.icesi.edu.taller.model.TsscDeliverable</class>
+		<class>com.icesi.edu.taller.model.TsscGame</class>
+		<class>com.icesi.edu.taller.model.TsscGameAdmin</class>
+		<class>com.icesi.edu.taller.model.TsscGroup</class>
+		<class>com.icesi.edu.taller.model.TsscSprint</class>
+		<class>com.icesi.edu.taller.model.TsscState</class>
+		<class>com.icesi.edu.taller.model.TsscStory</class>
+		<class>com.icesi.edu.taller.model.TsscTimecontrol</class>
+		<class>com.icesi.edu.taller.model.TsscTimeInterval</class>
+		<class>com.icesi.edu.taller.model.TsscTopic</class>
+		<properties>
+			<property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+			<property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:test"/>
+			<property name="javax.persistence.jdbc.user" value="sa"/>
+			<property name="javax.persistence.jdbc.password" value=""/>
+			<property name="show_sql" value="true"/>
+		</properties>
+	</persistence-unit>
+</persistence>
